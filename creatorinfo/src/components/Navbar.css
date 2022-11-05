@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:ital,wght@0,300;0,400;1,300;1,400;1,500&family=Rubik:wght@300;400;500&display=swap');
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(214, 238, 241);
+    background: radial-gradient(circle, rgba(214, 238, 241, 1) 15%, rgba(58, 146, 185, 1) 15%, rgba(10, 139, 180, 1) 100%);
+    color: rgb(24, 35, 45);
+    margin: 1.1rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 6px 15px 0px rgba(84, 81, 84, 1);
+    -moz-box-shadow: 2px 6px 10px 0px rgba(84, 81, 84, 1);
+    box-shadow: 2px 6px 10px 0px rgba(84, 81, 84, 1);
+    position: sticky;
+    z-index: 100;
+}
+
+.logo {
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 38px;
+}
+
+.emoji {
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.likes:hover{
+    transform: scale(0.8);
+    transition: 0.3s ease-in-out;
+}
+.comment:hover{
+    transform: translateY(10px);
+    transition: 0.3s ease-in-out;
+}
+.share:hover{
+    transform: rotate(-30deg);
+    transition: 0.3s ease-in-out;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    padding: 7px 10px;
+    margin-top: 9px;
+    background: rgb(52, 12, 90);
+    color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: 'Rubik';
+    cursor: pointer;
+}
+button:active,button:hover{
+    color:  rgb(52, 12, 90);
+    background: rgb(249, 195, 246);
+    border: 2px solid  rgb(52, 12, 90);
+    /* font-weight: 500; */
+    transition: 0.15s ease-in-out;
+}
+button:active{
+    transform: scale(0.9);
+}

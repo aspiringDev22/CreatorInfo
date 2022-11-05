@@ -1,0 +1,58 @@
+div.dashboard{
+    display: flex;
+    height: 65vh;
+}
+
+form.dashboard{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    background: none;
+    color: white;
+    /* margin-left: -1rem; */
+    /* border-right: 2px solid rgb(150, 32, 32); */
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: -13rem;
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+
+.left-container input{
+    height: 30px;
+    padding: 8px 8px;
+}
+.left-container input::placeholder{
+    font-family: cursive;
+}
+
+.search{
+    background: none;
+    padding: 5px;
+    font-size: 26px;
+    margin-left: -3.5rem;
+    margin-top: -0.01rem;
+}
+.search:hover{
+    background: none;
+    border: none;
+}
+
+.right-container{
+    /* margin-left: 10rem; */
+    font-family: 'Rubik';
+    color: rgb(232, 229, 229);
+    display: flex;
+}
+
+.description{
+    margin-top: 6rem;
+    line-height: 35px;
+}
+
+.img-right{
+    height: 400px;
+}

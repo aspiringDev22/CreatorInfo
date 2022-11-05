@@ -1,0 +1,70 @@
+.results{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    width: 60vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);    
+    width: 84% ;
+    font-family: 'Roboto';
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 4px 15px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 4px 15px -4px rgba(0,0,0,0.75);
+box-shadow: 6px 4px 15px -4px rgba(0,0,0,0.75);
+}
+
+.card-left{
+    margin: 20px;
+}
+
+.card img{
+    height: 150px;
+    margin-top: 1px;
+    border-radius: 20%;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.inline{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Rubik';
+}
+
+.card-right{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.social_media_handle{
+    font-family: cursive;
+}
+
+.socials{
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.likess{
+    margin-top: 35px;
+}
+.post_engagement_rate{
+    margin-top: 30px;
+}
+
+.category{
+    margin-top: 160px;
+    margin-left: 70px;
+    font-family: cursive;
+}
